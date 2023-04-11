@@ -472,6 +472,14 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
+"@mh-jack/vanilla-extract-next-plugin@^2.1.1":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@mh-jack/vanilla-extract-next-plugin/-/vanilla-extract-next-plugin-2.1.2.tgz#ca36036d0819eaa9b9b1192f2196dbe5fbe09c50"
+  integrity sha512-hE9kR3Vs+FarBRGVZ8hRmGv8Z4jd2IEu7wI+a+lmj10i4VmQ6bYogWGVvbpAOXaJjMIU/L68JgpIOnz/GXdH9w==
+  dependencies:
+    "@vanilla-extract/webpack-plugin" "^2.2.0"
+    browserslist "^4.19.1"
+
 "@next/env@13.3.0":
   version "13.3.0"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-13.3.0.tgz#cc2e49f03060a4684ce7ec7fd617a21bc5b9edba"
@@ -602,14 +610,6 @@
     outdent "^0.8.0"
     vite "^4.1.4"
     vite-node "^0.28.5"
-
-"@vanilla-extract/next-plugin@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@vanilla-extract/next-plugin/-/next-plugin-2.1.1.tgz#c030bb930d7e64739158e36bf49bdd55c96102af"
-  integrity sha512-8+7WRL7JRv9w9MOwTpVi/ZDv3qXkxjkgJgxzS9wQJHjvdfcs0Xyq30ePeaJfBN4b6ClUeqOdj7UYa8fqKA8oOQ==
-  dependencies:
-    "@vanilla-extract/webpack-plugin" "^2.2.0"
-    browserslist "^4.19.1"
 
 "@vanilla-extract/private@^1.0.3":
   version "1.0.3"
