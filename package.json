@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "postinstall": "patch-package"
+    "lint": "next lint"
   },
   "dependencies": {
     "@types/node": "18.15.11",
@@ -16,7 +15,6 @@
     "next": "13.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "patch-package": "^6.5.1",
     "typescript": "5.0.4"
   },
   "devDependencies": {
@@ -29,5 +27,9 @@
     "singleQuote": true,
     "tabWidth": 2,
     "trailingComma": "es5"
+  },
+  "packageManager": "yarn@3.2.3",
+  "resolutions": {
+    "next@13.3.0": "patch:next@npm%3A13.3.0#./.yarn/patches/next-npm-13.3.0-40476f73c1.patch"
   }
 }
