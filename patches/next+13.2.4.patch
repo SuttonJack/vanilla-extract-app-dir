@@ -1,0 +1,13 @@
+diff --git a/node_modules/next/dist/build/webpack/loaders/utils.js b/node_modules/next/dist/build/webpack/loaders/utils.js
+index 9d21ac8..0b56eb3 100644
+--- a/node_modules/next/dist/build/webpack/loaders/utils.js
++++ b/node_modules/next/dist/build/webpack/loaders/utils.js
+@@ -21,7 +21,7 @@ function isClientComponentModule(mod) {
+     const hasClientDirective = ((ref = mod.buildInfo.rsc) == null ? void 0 : ref.type) === _constants.RSC_MODULE_TYPES.client;
+     return hasClientDirective || imageRegex.test(mod.resource);
+ }
+-const regexCSS = /\.(css|scss|sass)(\?.*)?$/;
++const regexCSS = /\.(css|scss|sass|css\.ts)(\?.*)?$/;
+ exports.regexCSS = regexCSS;
+ function getActions(mod) {
+     var ref;

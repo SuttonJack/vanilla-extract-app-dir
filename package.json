@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@types/node": "18.15.11",
@@ -15,6 +16,18 @@
     "next": "13.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "patch-package": "^6.5.1",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@vanilla-extract/next-plugin": "^2.1.1",
+    "@vanilla-extract/webpack-plugin": "^2.2.0",
+    "prettier": "2.5.1"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "es5"
   }
 }
