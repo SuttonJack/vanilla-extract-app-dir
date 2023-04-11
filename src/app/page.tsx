@@ -1,9 +1,11 @@
-import { StyledTitle } from './styles.css'
+import { StyledContainer, StyledTitle } from './styles.css'
 
 export default function Home() {
   return (
-    <main>
+    <div className={StyledContainer}>
       <h1 className={StyledTitle}>Hello World</h1>
-    </main>
+    </div>
   )
 }
+
+export const runtime = 'experimental-edge'
