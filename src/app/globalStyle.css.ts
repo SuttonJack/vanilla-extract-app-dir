@@ -1,14 +1,14 @@
-import { globalStyle } from '@vanilla-extract/css'
+import { globalStyle } from '@vanilla-extract/css';
 
 globalStyle('html, body', {
   height: '100%',
-})
+});
 
 globalStyle('*, *::before, *::after', {
   boxSizing: 'border-box',
   WebkitFontSmoothing: 'antialiased',
   MozOsxFontSmoothing: 'grayscale',
-})
+});
 
 globalStyle('body', {
   display: 'flex',
@@ -22,11 +22,11 @@ globalStyle('body', {
   backgroundSize: 'cover',
   backgroundPosition: 'center center',
   backgroundRepeat: 'no-repeat',
-})
+});
 
 globalStyle('h1, h2, h3, h4, p', {
   margin: 0,
-})
+});
 
 globalStyle('main', {
   display: 'flex',
@@ -39,4 +39,4 @@ globalStyle('main', {
   maxWidth: '720px',
   margin: '0 auto',
   overflow: 'hidden',
-})
+});

@@ -1,4 +1,4 @@
-import { style } from '@vanilla-extract/css'
+import { style } from '@vanilla-extract/css';
 
 export const footer = style({
   display: 'flex',
@@ -16,10 +16,10 @@ export const footer = style({
     '(min-width: 0px) and (max-width: 768px)': {
       flexDirection: 'column',
       alignItems: 'center',
-      gap: '24px'
+      gap: '24px',
     },
   },
-})
+});
 
 export const details = style({
   display: 'flex',
@@ -28,18 +28,11 @@ export const details = style({
   fontSize: 'inherit',
   color: '#fff',
   margin: 'auto',
-})
+});
 
 export const link = style({
   height: 'fit-content',
   color: 'inherit',
   textDecorationThickness: '1px',
   textUnderlineOffset: '3px',
-})
-
-export const git = style({
-  gap: '0.5rem',
-  alignItems: 'center',
-  justifyContent: 'flex-end',
-  color: 'white',
-})
+});

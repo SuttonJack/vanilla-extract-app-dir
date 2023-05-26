@@ -3,23 +3,35 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
   },
   "dependencies": {
-    "next": "^13.4.1",
+    "browserslist": "^4.21.5",
+    "next": "13.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/node": "18.15.11",
-    "@types/react": "18.0.34",
-    "@types/react-dom": "18.0.11",
+    "@types/node": "20.2.4",
+    "@types/react": "18.2.7",
+    "@types/react-dom": "18.2.4",
     "@vanilla-extract/css": "^1.11.0",
     "@vanilla-extract/next-plugin": "^2.1.2",
+    "@vanilla-extract/webpack-plugin": "^2.2.0",
+    "@vercel/style-guide": "^4.0.2",
+    "prettier": "^2.8.8",
     "typescript": "5.0.4",
     "webpack": "5.74.0"
+  },
+  "prettier": {
+    "endOfLine": "lf",
+    "printWidth": 80,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "useTabs": false
   }
 }
